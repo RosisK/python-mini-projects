@@ -53,5 +53,4 @@ def view_tasks():
 def remove_tasks(task_index):
     tasks.pop(task_index - 1)
 
-if __name__ == "__main__":
-    main()
+main()
